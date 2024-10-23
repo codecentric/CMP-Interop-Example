@@ -1,0 +1,10 @@
+language = Objective-C
+headers = /Users/jimbo/Downloads/InteropExample/iosApp/iosApp/CryptoExampleBridgingHeader.h
+---
+#import <Foundation/Foundation.h>
+
+@interface CryptoExample : NSObject
+
++ (NSString *)ToSHA256:(NSString *)input;
+
+@end
